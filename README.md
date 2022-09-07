@@ -1,3 +1,6 @@
-<h1>The Process</h1>
-<p>Here begins the process, the learning journey towards the stars! 😎<br>
-haha I'm trying 😅</p>
+# The Process
+
+Here begins the process, the learning journey towards the stars! 😎
+I'm trying haha 😅
+
+Deploy on [here](https://rainersrc-the-process.netlify.app/) 😌
