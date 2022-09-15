@@ -1,0 +1,155 @@
+/* variables */
+:root {
+  --transition: transform 0.3s;
+}
+
+/* global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body and background config */
+body {
+  z-index: 1;
+  font-family: "Inter", sans-serif;
+  background-color: #030e00;
+  text-shadow: #000000 0 0px 2px;
+}
+
+.background {
+  z-index: 0;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+/* header and profile picture config */
+header {
+  margin: 32px auto;
+  text-align: center;
+}
+
+header div {
+  width: 140px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 4px;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(5px);
+  border: 2px solid #00cc64;
+  display: flex;
+  transition: var(--transition);
+  animation: scrollOnLoad 0.5s 0.2s backwards;
+}
+
+/* header div:hover {
+  width: 110%;
+} */
+
+header img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* main and all sections */
+main {
+  max-width: 580px;
+  width: 90%;
+  display: grid;
+  gap: 24px;
+  margin: 0 auto 32px;
+}
+
+section div {
+  padding: 24px 32px 32px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border-top: 3px solid #00cc64;
+}
+
+section {
+  animation: scrollOnLoad 0.5s backwards;
+}
+
+section:nth-child(1) {
+  animation-delay: 0.4s;
+}
+
+section:nth-child(2) {
+  animation-delay: 0.6s;
+}
+
+section:nth-child(3) {
+  animation-delay: 0.8s;
+}
+
+section h1 {
+  color: #ffffff;
+  line-height: 38px;
+  letter-spacing: -0.47px;
+}
+
+section p {
+  color: #a1a1aa;
+  line-height: 26px;
+  letter-spacing: -0.18px;
+  margin-bottom: 24px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* images in sections configs */
+.tech-section img {
+  width: 90px;
+  border-radius: 8px;
+  box-shadow: #000000 0 2px 7px -3px;
+  transition: var(--transition);
+}
+
+.tech-section img:hover {
+  transform: scale(1.1);
+}
+
+.channel-section img {
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: #000000 0 2px 7px -3px;
+  transition: var(--transition);
+}
+
+.channel-section img:hover {
+  transform: scale(1.1);
+}
+
+.social-section img {
+  width: 32px;
+  border-radius: 8px;
+  transition: var(--transition);
+  /* filter: drop-shadow(#000000 0 1px 2px); */
+}
+
+.social-section img:hover {
+  transform: scale(1.1);
+}
+
+/* animations */
+@keyframes scrollOnLoad {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
