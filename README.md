@@ -1,4 +1,4 @@
-# The Process
+# the-process
 
 Here begins the process, the learning journey towards the stars! 😎  
 I'm trying haha 😅
