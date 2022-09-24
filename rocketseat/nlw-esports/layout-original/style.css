@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  background-image: url(./assets/background.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #121214;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+header div {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  padding: 4px;
+  margin: 32px auto;
+}
+
+header img {
+  width: 100%;
+  border-radius: 50%;
+  vertical-align: center;
+}
+
+h1 {
+  line-height: 38px;
+  font-weight: 900;
+  letter-spacing: -0.47px;
+}
+
+p {
+  line-height: 26px;
+  margin-bottom: 24px;
+  letter-spacing: -0.18px;
+  color: #a1a1aa;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+section {
+  padding-top: 5px;
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  border-radius: 8px 8px 15px 15px;
+  margin-bottom: 24px;
+}
+
+section div {
+  background-color: #2a2634;
+  border-radius: 8px;
+  padding: 32px;
+  padding-top: 24px;
+}
+
+section ul {
+  display: flex;
+  gap: 16px;
+}
+
+.games img {
+  border-radius: 8px;
+  width: 120px;
+}
+
+.channels img {
+  border-radius: 50%;
+  border: 1px solid #443e54;
+  width: 70px;
+}
+
+.social img {
+  width: 32px;
+}
