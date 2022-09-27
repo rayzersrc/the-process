@@ -1,12 +1,12 @@
 :root {
-  --background-color: #17162E;
+  --background-color: #17162e;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
 body {
@@ -24,7 +24,7 @@ main {
 }
 
 h2 {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   margin: 2rem 0;
 }
@@ -46,7 +46,7 @@ h2 {
   outline: none;
   border: none;
   background-color: transparent;
-  color: #FFF;
+  color: #fff;
 }
 
 .input-container img {
@@ -56,17 +56,17 @@ h2 {
 .showOnlyFavorites {
   text-align: center;
   margin-bottom: 2rem;
-  color: #FFF;
+  color: #fff;
 }
 
 .movie {
-  color: #FFF;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  background: #1D1C3B;
-  border-radius: 0.5rem; 
+  background: #1d1c3b;
+  border-radius: 0.5rem;
   padding: 1rem;
   margin: 0 auto;
   margin-bottom: 2rem;
@@ -81,7 +81,7 @@ h2 {
 }
 
 .movie .movie-image img {
-  width: 100%;
+  width: 92px;
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
@@ -106,7 +106,8 @@ h2 {
   gap: 2rem;
 }
 
-.movie-informations .rating, .movie-informations .favorite {
+.movie-informations .rating,
+.movie-informations .favorite {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -119,7 +120,7 @@ h2 {
 
 .movie-informations .favorite img {
   cursor: pointer;
-  transition: all .3s;
+  transition: all 0.3s;
   width: 1.2rem;
 }
 
@@ -129,7 +130,7 @@ h2 {
 
 .movie-description {
   max-width: 50%;
-  color: #ACACAC;
+  color: #acacac;
   font-weight: 400;
   font-size: 0.85rem;
   line-height: 1.5rem;
